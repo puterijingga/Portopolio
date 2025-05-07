@@ -67,3 +67,7 @@ if (closeButton) {
     console.error("Tombol tutup tidak ditemukan!");
 }
 
+// Panggil fungsi untuk menampilkan popup otomatis saat halaman dimuat
+window.onload = function() {
+    showAllPopups();
+};
